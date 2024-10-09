@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Worker",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/src/Idempotency.Worker/Idempotency.Worker.csproj",
+    },
+    {
+      "name": "API",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/src/Idempotency.WebApi/Idempotency.WebApi.csproj",
+    }
+  ]
+}
